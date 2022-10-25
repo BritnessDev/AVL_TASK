@@ -32,7 +32,7 @@ static void doTestDbFindByDepartureAirportDay(FlightDb db,
 static void doTestDbFindBetweenTimes(FlightDb db,
                                      int day1, int hour1, int minute1,
                                      int day2, int hour2, int minute2);
-static void doTestDbFindNextFlight(FlightDb db, char *departureAirport,
+static void doTestDbFindNextFlight(FlightDb db, char *flightNumber,
                                    int day, int hour, int minute);
 
 static FlightDb createSampleDb(void);
